@@ -36,32 +36,45 @@
                 <h1 class="">Discrepancy Viewer</h1>
             </div>
 
+
+            <!--TOTAL BALANCE-->
             <div class="row">
               <div id="total-balance" class="center total-balance"> 
                 <h2>Total Balance:</h2>
                 <h3>00000.00</h3>
               </div>
-                <form class="d-flex" method="">
 
-                  <!-- Account Number input-->
-                  <div class="col">
-                    <div class="mb-3 me-2">
-                      <label for="accountNumber" class="form-label">Account Number:</label>
-                      <input name="accountNumber" type="text" class="form-control input" id="accountNumber" placeholder="Enter account number">
-                       <!-- Date input-->
-                   
-                      <label for="date">Date: </label>
-                      <input name="date" id="date" class="form-control input" type="date" />
+
+
+                <form class="form-inline" method="">
+
+                 
+                  <div class="col-12 mb-3 ">
+                    <div class="d-flex">
+                        <div>
+                            <label for="accountNumber" class="form-label mb-3">Account Number:</label>
+                            <input name="accountNumber" type="text" class="form-control" id="accountNumber" placeholder="Enter account number">
+                        </div>
+                        <!-- Date input-->
+                        <div class="input">
+                            <label for="date" class="form-label mb-3">Date:</label>
+                            <input name="date" id="date" class="form-control" type="date" />
+
+                           
+                        </div>
+
+                        <div>
+                        <label for="search-button" class="form-label mb-3"></label>
+                        <button  id="search-button" type="button" class="btn search-button">Search</button>
+                      </div>
+
+                        
                     </div>
-                   
-
-                   
-                  </div>
-                  <div class="col-6">
                     
-                    <div> <button  id="search-button" type="button" class="btn btn-primary btn-lg float-end search-button" style="float: right; background-image: url(../static/);" >Search</button></div>
+                </div>
                     
-                  </div>
+                    
+              
                   
                 </form>      
             </div>

@@ -27,6 +27,14 @@ body{
 
 .text-input{
  padding-bottom: 20px;
+ 
+ 
+}
+
+.input{
+    
+    padding-left: 1%;
+    
 }
 
 .center{
@@ -97,17 +105,28 @@ body{
 }
 
 .search-button{
-    float: right;
-    background-color: white;
-    color: black;
-    border-color: black;
-}
-.search-button:hover{
-    float: right;
+    margin-left: 20%;
     background-color: #005895;
     color: white;
     border-color: black;
+    align-content: s;
+    width: 120px; /* Adjust as needed */
+    height: 45px; /* Adjust as needed */
+    border-radius: 20px;
 }
+
+.search-button:hover{
+    margin-left: 20%;
+    background-color: #000962;
+    color: white;
+    border-color: black;
+    align-content: s;
+    width: 120px; /* Adjust as needed */
+    height: 45px; /* Adjust as needed */
+    border-radius: 20px;
+}
+
+
 
 
 .note{
@@ -174,10 +193,7 @@ body{
     display:none;
 }
 
-.input{
- width: 250px;
- padding: 10;
-}
+
 
 td, th {
     border: 1px solid #dddddd;
