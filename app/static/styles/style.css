@@ -2,12 +2,13 @@ body{
     background-color: #003A62;
 }
 
-.nvabar{
-    background-color: #005895;
-}
+
+.custom-navbar {
+    background-color: #005895; /* Change this to the desired color */
+    color: white;
+  }
 
 
-/* CSS for the login panel */
 .login-panel {
     margin-top: 150px;
     border-radius: 20px;
